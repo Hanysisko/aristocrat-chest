@@ -60,7 +60,7 @@ const App = () => {
 
   return (
     <Stage width={800} height={600} options={{ backgroundAlpha: 0 }}>
-      <Sprite image="/background.jpg" x={0} y={0} width={800} height={600} />
+      <Sprite image="background.jpg" x={0} y={0} width={800} height={600} />
       <ChestLayer
         ref={chestRef}
         x={50}

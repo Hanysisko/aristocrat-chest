@@ -22,16 +22,16 @@ const ChestButton = ({ key, x, y, onClick, isActive, label, isClicked }) => {
   const getTextureByLabel = (label) => {
     switch (label) {
       case "0$":
-        return PIXI.Texture.from("/chest_loss.jpg");
+        return PIXI.Texture.from("chest_loss.jpg");
       default:
-        return PIXI.Texture.from("/chest_won.jpg");
+        return PIXI.Texture.from("chest_won.jpg");
     }
   };
 
   const texture =
     isClicked && label
       ? getTextureByLabel(label)
-      : PIXI.Texture.from("/chest_closed.jpg");
+      : PIXI.Texture.from("chest_closed.jpg");
 
   return (
     <Container x={x} y={y}>
