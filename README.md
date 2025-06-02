@@ -1,12 +1,23 @@
-# React + Vite
+https://hanysisko.github.io/aristocrat-chest/
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+🎁 Chest Game — React + PixiJS
+This is a slot bonus game, built with React 18 and @pixi/react v7, where player click on 6 chests to reveal randomized rewards from $20 to $50 with small possibility to get Bonus Win!
+If Bonus Win is triggered, a special popup displays a count-up animation from $0 to $1000. Graphics were generated via ChatGPT.
 
-Currently, two official plugins are available:
+📦 Tech Stack
+React 18
+PixiJS
+@pixi/react
+Vite
+GitHub Pages for deployment
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+🛠️ Getting Started
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+1. Clone the repository using console:
+   git clone https://github.com/your-username/aristocrat-chest.git
+   cd aristocrat-chest
+2. Install dependencies:
+   npm install
+3. Start the development server:
+   npm run dev
+4. Open http://localhost:5173 in your browser.
